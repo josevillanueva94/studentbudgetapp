@@ -3,6 +3,7 @@ from django.db.models import Model, ForeignKey, CASCADE
 from django.contrib.auth.models import User
 
 
+
 class Product(Model):
     name = CharField(max_length=200)
     unit_price = DecimalField(decimal_places=2, max_digits=10)
